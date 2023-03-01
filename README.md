@@ -6,3 +6,6 @@ A decentralized smart city is an innovative urban concept that utilizes Web3 tec
 
 KEYWORDS
 Smart City, Web3 technology, Ethereum, Hyper Ledger Besu, Goerli Testnet, Non-Fungible Tokens (NFTs), Secure communication, Smart contract, SHAIII, Encryption Protocol
+
+
+![Proposed DSCoT White BG](https://user-images.githubusercontent.com/57804946/222163391-9fa65097-0dac-4000-979b-ddcd31611eb8.jpg)
