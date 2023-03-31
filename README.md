@@ -11,4 +11,9 @@ Smart City, Web3 technology, Ethereum, Hyper Ledger Besu, Goerli Testnet, Non-Fu
 
 ![Proposed DSCoT White BG](https://user-images.githubusercontent.com/57804946/222163391-9fa65097-0dac-4000-979b-ddcd31611eb8.jpg)
 
+**_MOTIVATION_**
+In the context of Web3, decentralized cyber-physical systems in the smart city are an innovative urban concept that utilizes blockchain technology to enhance city operations and improve the quality of life for its residents. By leveraging decentralized technologies such as blockchain, smart contracts, and decentralized applications (dApps), a decentralized smart city can offer greater transparency, security, and efficiency in managing urban resources such as energy, water, and waste.
+
+One of the key benefits of a decentralized smart city in the context of Web3 is the ability to create a more decentralized and democratized system of governance [2]. Overall, a decentralized smart city in the context of Web3 holds significant promise for the future of urban development. By leveraging decentralized technologies, cities can create more efficient, transparent, and citizen-focused urban environments that are more democratic and secure.
+
 **_MORE DETAILS TO COME.._**
