@@ -1,19 +1,43 @@
-# Decentralized-Smart-City-of-Things-DSCoT
+# README.txt
 
+——————————————————————————————————————————
+Decentralized Smart City of Things (DSCoT)
+——————————————————————————————————————————
 
-**_ABSTRACT_**
+  The DSCoT software helps define the attributes for the representation of admin, users, edge, and fog devices which further devises an authentication mechanism. This component authenticates verified users to gain access to respective fog and edge devices to avoid unauthorized access utilizing the extended version of non-fungible tokens (NFTs) for cyber-physical systems in smart cities. The code utilizes smart contracts to develop the identification and authentication mechanism which generates the NFT-based authentication access code to authorize access for the assets in cyber-physical systems for the smart city concept. 
 
-A decentralized smart city is an innovative urban concept that utilizes Web3 technology to enhance city operations and improve the quality of life for its residents. By leveraging decentralized technologies such as blockchain, smart contracts, and decentralized applications (dApps), a decentralized smart city can offer greater transparency, security, and efficiency in managing urban resources such as energy, water, and waste. In this article, a proposed web3-based architecture, Decentralized Smart City of Things (DSCoT) has been presented with smart contracts development and the deployment of DSCoT on private and public blockchain testnet. Since non-fungibility provided by the ERC721 standard for the smart cities components such as the owner, users, and IoT-enabled smart devices in the literature is explicitly missing, the proposed web3 architecture DSCoT devised the functionality of identification and authentication of the assets in a smart city. The code utilizes smart contracts to develop the identification and authentication mechanism which generates the NFT-based authentication access code to authorize access for the assets in the smart city concept. 
+  The software obtains this information from the Owner of the DSCoT SCs who is the only entity that triggers the contracts and can add the Users, fog, and IoT-enabled smart devices while the mapped user with fog, and IoT-enabled smart devices initiates the authentication process to gain access to these devices. The software has been developed in Solidity (v0.5.16) and has been deployed utilizing Remix IDE (v0.23.3), and VS Code.
 
-**_KEYWORDS_**
-Smart City, Web3 technology, Ethereum, Hyper Ledger Besu, Goerli Testnet, Non-Fungible Tokens (NFTs), Secure communication, Smart contract, SHAIII, Encryption Protocol
+—————————————————————————————————————
+CONTENTS OF THE DISTRIBUTION PACKAGE
+—————————————————————————————————————
 
-**_METHODOLOGY_**
+  Remix IDE is an open-source and browser-based integrated development environment (IDE) for building decentralized applications (dApps) on the public/private blockchain. It has been used to develop, compile and deploy the proposed mechanism via smart contracts as an extended ERC721-IoT standard in DSCoT architecture. It provides a user-friendly interface for developers to write, test, and deploy smart contracts using the Solidity programming language. 
 
-![Proposed DSCoT White BG](https://user-images.githubusercontent.com/57804946/222163391-9fa65097-0dac-4000-979b-ddcd31611eb8.jpg)
+  The Remix IDE also contains a default workspace that loads for the very first time; a new workspace is created while no files are existing in the File Explorer. This workspace contains 3 directories:
 
-**_MOTIVATION_**
+1. 'contracts': Holds three default smart contracts with different complexity levels, denoted with a number prefix in the file name.
+2. 'scripts': Holds two scripts to deploy a contract.
+3. 'tests': Contains one Solidity test file for the 'Ballot' contract & one JS test file for the 'Storage' contract
 
-Based on the literature review, it has been observed that most of the proposed solutions depend on the internal security mechanism of the distributed ledger technology (DLT) while none of the solutions have explored the identification and authentication schemes for smart cities architectures. It has also been observed that proposed solutions leading to an extended version of non-fungible tokens (NFTs) keeping in view the smart cities architectures are explicitly lacking in the literature which  represents crypto tokens as a unique and non-interchangeable unit of data stored on a distributed ledger. Thus, proposing blockchain tokenization specifically NFTs in smart city architecture without a centralized third-party intervention may provide a mechanism to digitally define the assets and components to attain a robust identification and authentication mechanism.
+To add the workspace, the cloned version of Decentralized-Smart-City-of-Things-DSCoT needs to be imported to the file explorer which will update the log for the workspace. The proposed DSCoT SC, ERC721 interface, and NFT interface will be imported as a first step so that these SCs may be compiled and deployed as discussed below. These smart contracts will be updated in the "contracts" folder while the scripts will help to deploy these contracts. 
 
-**_MORE DETAILS TO COME.._**
+/DSCoT.sol 
+
+  Once the SCs are uploaded, the app can be tested as it has already been deployed on the Goerli testnet at the "0x504c7fab97afb2642bb00fff8520aba0857e3544" address. To run the app, click the DEPLOY & RUN TRANSACTIONS tab in the Remix IDE window, then provide the given address in the "At Address" text box. Click the "At Address" button in the apps bar to run the application after deploying the smart contract. The proposed DSCoT smart contract will load which can be further tested.
+
+/erc721_Interface.sol 
+
+  Since non-fungible tokens, or NFTs, are built on the Ethereum Request for Comment ERC-721, which defines a standard interface using wallet applications to work with any NFT on Ethereum platforms. The ERC-721 was defined as an interface in solidity which was further inherited in DSCoT.sol smart contract to provide the proposed functionality of non-fungible tokens (NFTs) in a cyber-physical system for the smart city architecture. 
+
+/nft_Interface.sol 
+
+  The proposed DSCoT functions and comments were also defined in the interface which provides the extended version of non-fungible tokens (NFTs), defined in the Ethereum Request for Comment ERC-721. It helped define a standard interface using wallet applications to work with proposed NFT as DSCoT architecture on Ethereum platforms. The nft_interface.sol defines an interface in solidity which was further inherited in DSCoT.sol smart contract to enhance the proposed functionality of the non-fungible tokens (NFTs) in a cyber-physical system for the smart city architecture.
+
+———————
+CREDITS
+———————
+
+Usman Khalil
+19h8340@ubd.edu.bn
+2023.05.06
