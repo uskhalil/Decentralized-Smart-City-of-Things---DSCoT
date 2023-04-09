@@ -1,0 +1,15 @@
+
+# Decentralized Smart City of Things (DSCoT)
+
+Decentralized Smart City of Things (DSCoT) a proposed web3-based architecture, has been developed by leveraging decentralized technologies such as blockchain, 
+smart contracts (SCs), and decentralized applications (dApps). The proof-of-concept has been deployed on private and public blockchain testnet i.e., HyperLedger Besu 
+and Goerli testnet respectively. 
+
+The ERC721 standard defines Non-Fungible Tokens (NFTs) which refer to any asset linked to a distinctive cryptographic record, usually a piece of art and luxury item, 
+services in terms of music, real estate, collectibles, or another presumed valuable object. The current version of the ERC721 standard does not define functions and 
+components to represent the identification and authentication of assets for cyber-physical systems in smart cities. 
+
+Since the blockchain-based architectures for the representation of admin, users, edge, and fog devices utilizing non-fungible tokens (NFTs) in the literature are 
+explicitly lacking, the proposed DSCoT (Decentralized Smart City of Things) devises newly defined attributes for representation and authentication from a software 
+standpoint. 
+
