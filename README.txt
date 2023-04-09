@@ -22,15 +22,15 @@ CONTENTS OF THE DISTRIBUTION PACKAGE
 
 To add the workspace, the cloned version of Decentralized-Smart-City-of-Things-DSCoT needs to be imported to the file explorer which will update the log for the workspace. The proposed DSCoT SC, ERC721 interface, and NFT interface will be imported as a first step so that these SCs may be compiled and deployed as discussed below. These smart contracts will be updated in the "contracts" folder while the scripts will help to deploy these contracts. 
 
-/DSCoT.sol 
+/src/DSCoT.sol 
 
   Once the SCs are uploaded, the app can be tested as it has already been deployed on the Goerli testnet at the "0x504c7fab97afb2642bb00fff8520aba0857e3544" address. To run the app, click the DEPLOY & RUN TRANSACTIONS tab in the Remix IDE window, then provide the given address in the "At Address" text box. Click the "At Address" button in the apps bar to run the application after deploying the smart contract. The proposed DSCoT smart contract will load which can be further tested.
 
-/erc721_Interface.sol 
+/src/erc721_Interface.sol 
 
   Since non-fungible tokens, or NFTs, are built on the Ethereum Request for Comment ERC-721, which defines a standard interface using wallet applications to work with any NFT on Ethereum platforms. The ERC-721 was defined as an interface in solidity which was further inherited in DSCoT.sol smart contract to provide the proposed functionality of non-fungible tokens (NFTs) in a cyber-physical system for the smart city architecture. 
 
-/nft_Interface.sol 
+/src/nft_Interface.sol 
 
   The proposed DSCoT functions and comments were also defined in the interface which provides the extended version of non-fungible tokens (NFTs), defined in the Ethereum Request for Comment ERC-721. It helped define a standard interface using wallet applications to work with proposed NFT as DSCoT architecture on Ethereum platforms. The nft_interface.sol defines an interface in solidity which was further inherited in DSCoT.sol smart contract to enhance the proposed functionality of the non-fungible tokens (NFTs) in a cyber-physical system for the smart city architecture.
 
