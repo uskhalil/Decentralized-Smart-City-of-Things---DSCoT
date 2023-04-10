@@ -37,9 +37,7 @@ To add the workspace, the cloned version of Decentralized-Smart-City-of-Things-D
   The  REMIX Documentation file presents the graphical demo of the DSCoT software. For details read the file readme.txt found in the demo folder.
   
 /images
-	Demonstration files with document geometry data. For details read the file readme.txt found in the demo folder.
-
-		The proposed DSCoT architecture abstract, graphical representation is provided with a brief description in the Abstract. 
+  The proposed DSCoT architecture abstract, graphical representation is provided with a brief description in the Abstract. 
 
 ———————————————
 CREDITS
