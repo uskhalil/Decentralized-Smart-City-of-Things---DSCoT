@@ -1,4 +1,3 @@
-# README.txt
 
 ———————————————
 Decentralized Smart City of Things (DSCoT)
@@ -33,6 +32,14 @@ To add the workspace, the cloned version of Decentralized-Smart-City-of-Things-D
 /src/nft_Interface.sol 
 
   The proposed DSCoT functions and comments were also defined in the interface which provides the extended version of non-fungible tokens (NFTs), defined in the Ethereum Request for Comment ERC-721. It helped define a standard interface using wallet applications to work with proposed NFT as DSCoT architecture on Ethereum platforms. The nft_interface.sol defines an interface in solidity which was further inherited in DSCoT.sol smart contract to enhance the proposed functionality of the non-fungible tokens (NFTs) in a cyber-physical system for the smart city architecture.
+  
+/docs/demo
+  The  REMIX Documentation file presents the graphical demo of the DSCoT software. For details read the file readme.txt found in the demo folder.
+  
+/images
+	Demonstration files with document geometry data. For details read the file readme.txt found in the demo folder.
+
+		The proposed DSCoT architecture abstract, graphical representation is provided with a brief description in the Abstract. 
 
 ———————————————
 CREDITS
